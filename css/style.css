@@ -2,4 +2,95 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
 }
+/* richiamo la class header */
+header{
+    height: 600px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+/* primo blocco */
+.header-logo-nav{
+    height: 80px;
+    line-height: 80px;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.float-logo{
+    float: left;
+    width: 20%;
+}
+
+.float-logo img{
+    vertical-align: middle;
+}
+
+nav{
+    float: left;
+    width: 60%;
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/* richiamo alle classi a  */
+a{
+    text-decoration: none;
+    color: white;
+}
+.enter{
+    float:left;
+    width: 20%;
+    text-align: right;
+}
+/* richiamo button  */
+.container .button{
+    vertical-align: middle;
+}
+.button{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+/* secondo blocco */
+.header-title{
+    height: 520px;
+    width: 100%;
+    position: relative;
+}
+
+.content{
+    position: absolute;
+    top: 40%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    width: 50%;
+    text-align: center;
+}
+
+h1{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+p{
+    font-size: 30px;
+    color:white;
+}
+
+
