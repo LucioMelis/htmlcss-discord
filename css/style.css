@@ -6,11 +6,11 @@
 }
 /* richiamo la class header */
 header{
-    height: 600px;
+    height: 500px;
     background-image: url(../img/jumbo.png);
     background-size: cover;
 }
-/* primo blocco */
+/* contenitore header-logo-nav */
 .header-logo-nav{
     height: 80px;
     line-height: 80px;
@@ -65,10 +65,25 @@ a{
     background-color: white;
     color: black;
     text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
 }
-/* secondo blocco */
+/* hover */
+.button:hover{
+    text-decoration: underline;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+.white:hover, .black:hover{
+    text-decoration: underline;
+}
+
+/* Contenitore titolo-bottoni */
 .header-title{
-    height: 520px;
+    height: 420px;
     width: 100%;
     position: relative;
 }
@@ -89,8 +104,80 @@ h1{
 }
 
 p{
-    font-size: 30px;
+    font-size: 20px;
     color:white;
 }
+/* blocco link */
+/* classe principale */
 
+.btn-link{
+    margin-top: 30px;
+}
+/* classe bottone */
+.btn{
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/* classe colori */
+.white{
+    background-color: white;
+    color: black;
+}
 
+.black{
+    background-color: black;
+    color: white;
+}
+
+/* section float */
+.float-item{
+    float: left;
+    width: 70%;
+}    
+
+.float-text{
+    float: left;
+    width: 20%;
+}
+
+.img-item{
+   width: 100%;
+}
+/* titolo */
+.h2-black{
+    color: black;
+    font-size: 30px;
+    padding-top: 45px;
+    margin-bottom: 30px;
+}
+/* testo */
+.text-black{
+    color: black;
+    font-size: 20px;
+}
+/* regole section */
+section{
+    height: 700px;
+    position: relative;
+}
+
+section .container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container h2, .p-white{
+    text-align: center;
+}
+.p-white{
+    color: black;
+}
+
+.container img{
+    padding-left: 20px;
+}
