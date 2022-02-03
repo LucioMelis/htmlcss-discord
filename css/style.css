@@ -71,14 +71,23 @@ a{
 /* hover */
 .button:hover{
     text-decoration: underline;
+    background-color: black;
+    color: white;
 }
 
 nav a:hover{
     text-decoration: underline;
 }
 
-.white:hover, .black:hover{
+.white:hover{
     text-decoration: underline;
+    background-color: black;
+    color: white;
+}
+.black:hover{
+    text-decoration: underline;
+    background-color: white;
+    color: black;
 }
 
 /* Contenitore titolo-bottoni */
@@ -171,6 +180,53 @@ section .container{
     transform: translate(-50%, -50%);
 }
 
+/* waves1 */
+#waves{
+    background-color: #f6f6f6;
+}
+
+.custom-shape-divider-top-1643844237 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1643844237 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 70px;
+}
+
+.custom-shape-divider-top-1643844237 .shape-fill {
+    fill: #FFFFFF;
+}
+/* waves2 */
+
+.custom-shape-divider-top-1643845028 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1643845028 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 70px;
+}
+
+.custom-shape-divider-top-1643845028 .shape-fill {
+    fill: #F6F6F6;
+}
+
+/* fine waves */
 .container h2, .p-white{
     text-align: center;
 }
